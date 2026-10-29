@@ -1,0 +1,19 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Editoren
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Niemals committen: Schluessel und Container
+*.key
+*.asc
+*.hc
