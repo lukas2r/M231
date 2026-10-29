@@ -32,6 +32,6 @@ Die Beispiele wurden mit dem Skript [`caesar.py`](caesar.py) erstellt und überp
 2. **Häufigkeitsanalyse**: Im Deutschen ist «E» mit etwa 17 % der häufigste Buchstabe. Der häufigste Buchstabe im Geheimtext verrät deshalb meist direkt den Schlüssel.
 3. Gleiche Klartextbuchstaben ergeben immer gleiche Geheimtextbuchstaben, die Muster bleiben also erhalten.
 
-Ausserdem gibt es das **Schlüsselaustauschproblem**: Beide Seiten müssen den Schlüssel vorher kennen. Er muss deshalb über einen sicheren Kanal ausgetauscht werden. Dieses Problem besteht bei allen symmetrischen Verfahren (→ siehe [Symmetrisch/Asymmetrisch](03_Symmetrisch_Asymmetrisch.md)).
+Ausserdem gibt es das **Schlüsselaustauschproblem**: Beide Seiten müssen den Schlüssel vorher kennen. Er muss deshalb über einen sicheren Kanal ausgetauscht werden. Dieses Problem besteht bei allen symmetrischen Verfahren (→ siehe [Symmetrisch/Asymmetrisch](12_Symmetrisch_Asymmetrisch.md)).
 
 Verbesserungen in der Geschichte: die Vigenère-Chiffre (Schlüsselwort statt fester Verschiebung), die Enigma und heute AES.

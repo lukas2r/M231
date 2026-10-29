@@ -24,7 +24,7 @@
 | **Client-seitige / Ende-zu-Ende-Verschlüsselung (Zero-Knowledge)** | **Nur ich** | Die Daten werden vor dem Upload auf meinem Gerät verschlüsselt. Der Anbieter sieht nur Datensalat. ⚠️ Wer den Schlüssel bzw. das Passwort verliert, verliert die Daten. |
 
 **Anbieter mit E2E**: Proton Drive (CH), Tresorit (CH/HU), Filen, pCloud Crypto, Apple iCloud mit «Erweitertem Datenschutz», Backblaze mit privatem Schlüssel.
-**Selbst verschlüsseln**: Mit **Cryptomator** oder VeraCrypt vor dem Upload zu OneDrive oder Google Drive (→ [VeraCrypt](../02_Verschluesselung/05_VeraCrypt.md)), oder mit Backup-Tools mit eigener Verschlüsselung wie Duplicati, restic oder Kopia.
+**Selbst verschlüsseln**: Mit **Cryptomator** oder VeraCrypt vor dem Upload zu OneDrive oder Google Drive (→ [VeraCrypt](../LB3/06_VeraCrypt_optional.md)), oder mit Backup-Tools mit eigener Verschlüsselung wie Duplicati, restic oder Kopia.
 
 ## Empfehlungen für ein sicheres Cloud-Backup
 1. Einen Anbieter mit **Zero-Knowledge-E2E** wählen oder clientseitig selbst verschlüsseln

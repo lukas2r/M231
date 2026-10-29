@@ -22,7 +22,7 @@ Oft wird zwischen **Identifikation** (die Behauptung «Ich bin Lukas», z. B. de
 2. **Besitz**: Smartphone (App, SMS), Hardware-Token (YubiKey), Smartcard
 3. **Inhärenz / Sein**: Fingerabdruck, Gesichtserkennung, Iris, Stimme
 
-Ergänzend gibt es Faktoren wie **Ort** oder **Verhalten**. Werden mehrere Faktoren kombiniert, spricht man von **MFA** (→ [MFA](03_MFA.md)).
+Ergänzend gibt es Faktoren wie **Ort** oder **Verhalten**. Werden mehrere Faktoren kombiniert, spricht man von **MFA** (→ [MFA](11_MFA.md)).
 
 ## Prinzipien bei der Autorisierung
 - **Least Privilege**: Jede Person bekommt nur die Rechte, die sie wirklich braucht.

@@ -18,7 +18,7 @@
 | **Offline-Backup** | Der Datenträger ist nach der Sicherung vom System getrennt (externe Disk, Band). Er ist deshalb vor Ransomware geschützt. |
 | **Online-Backup** | Das Backup-Ziel ist ständig verbunden bzw. erreichbar (NAS, Cloud). Das ist bequem und automatisiert, aber angreifbar. |
 | **Offsite / Onsite** | Das Backup liegt ausserhalb bzw. innerhalb des eigenen Standorts. |
-| **Cloud-Backup** | Sicherung bei einem Online-Anbieter (→ [Cloud-Backup](04_Cloud_Backup.md)) |
+| **Cloud-Backup** | Sicherung bei einem Online-Anbieter (→ [Cloud-Backup](08_Cloud_Backup.md)) |
 | **Immutable Backup** | Ein unveränderbares Backup, das eine bestimmte Zeit lang nicht gelöscht werden kann (WORM, Object Lock) |
 | **RPO** (Recovery Point Objective) | Wie viel Datenverlust (Zeit) maximal tolerierbar ist. Ein RPO von 24 h bedeutet ein tägliches Backup. |
 | **RTO** (Recovery Time Objective) | Wie schnell das System wieder laufen muss |
