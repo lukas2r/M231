@@ -28,7 +28,21 @@ Ein Passwortmanager speichert alle Zugangsdaten in einem **verschlüsselten Tres
 5. Passwörter aus dem Browser importieren, danach **im Browser löschen** und das Speichern im Browser deaktivieren
 6. Mit dem Generator schwache oder doppelte Passwörter ersetzen (Bericht «Wiederverwendete Passwörter»)
 
-✏️ **TODO**: Screenshots von Installation, Tresor (Passwörter unkenntlich machen!) und Generator
+### Umsetzung (05.11.2026)
+- Konto bei Bitwarden erstellt und die **offizielle Desktop-App** für Windows installiert
+- ⚠️ Lehre aus einem Fehlversuch: Zuerst hatte ich im Microsoft Store «Bytewarden» installiert. Das ist ein **inoffizieller, veralteter Client**, und die Registrierung schlug fehl. Bei Passwortmanagern immer prüfen, ob die App vom **offiziellen Herausgeber** stammt (hier: Bitwarden Inc.).
+
+**Tresor nach der Einrichtung (noch leer):**
+
+![Bitwarden Tresor](img/bitwarden_tresor.png)
+
+**Passwort-Generator.** Er erzeugt zufällige Passwörter (hier 14 Zeichen) oder Passphrasen (hier 6 Wörter, 50 Zeichen). Eine Passphrase ist lang und trotzdem gut merkbar, ideal zum Beispiel als Master-Passwort. *Die hier gezeigten Beispiele werden nirgends verwendet.*
+
+| Passwort | Passphrase |
+|---|---|
+| ![Generator Passwort](img/bitwarden_generator_passwort.png) | ![Generator Passphrase](img/bitwarden_generator_passphrase.png) |
+
+✏️ **TODO**: Browser-Erweiterung und Handy-App installieren, 2FA für den Tresor aktivieren
 
 ## Risiken
 - Single Point of Failure: Das Master-Passwort und der 2FA-Wiederherstellungscode müssen sicher aufbewahrt werden.
