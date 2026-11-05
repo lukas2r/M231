@@ -17,8 +17,8 @@ Ein Passwortmanager speichert alle Zugangsdaten in einem **verschlüsselten Tres
 | Teilen / Familie | ✅ | ❌ | ✅ | ✅ | eingeschränkt |
 
 ### Entscheid
-**Meine Wahl:** ✏️ TODO (Vorschlag: **Bitwarden**)
-**Begründung (Vorschlag):** Bitwarden ist gratis, Open Source und regelmässig auditiert. Die Ende-zu-Ende-Verschlüsselung funktioniert nach dem Zero-Knowledge-Prinzip, und der Tresor synchronisiert sich automatisch zwischen PC und Handy. Wer die Daten nicht in der Cloud haben möchte, wählt **KeePassXC**: Dort bleibt die Datenbank vollständig lokal.
+**Meine Wahl:** **Bitwarden**
+**Begründung:** Bitwarden ist gratis, Open Source und regelmässig auditiert. Die Ende-zu-Ende-Verschlüsselung funktioniert nach dem Zero-Knowledge-Prinzip, und der Tresor synchronisiert sich automatisch zwischen PC und Handy. Wer die Daten nicht in der Cloud haben möchte, wählt **KeePassXC**: Dort bleibt die Datenbank vollständig lokal.
 
 ## Installation und Einrichtung
 1. Konto auf bitwarden.com erstellen

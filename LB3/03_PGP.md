@@ -6,7 +6,7 @@
 Vertrauensmodell: **Web of Trust**. Nutzer bestätigen sich gegenseitig die Echtheit ihrer Schlüssel (Key-Signing), statt einer zentralen Zertifizierungsstelle zu vertrauen. Zusätzlich vergleicht man den **Fingerprint** über einen zweiten Kanal.
 
 ## Durchführung
-Werkzeug: ✏️ TODO (z. B. **Gpg4win/Kleopatra** unter Windows, **Thunderbird** mit integriertem OpenPGP oder Proton Mail)
+Werkzeug: **Gpg4win mit Kleopatra** (Windows, gratis, Open Source, Download: gpg4win.org). Alternativ: Thunderbird mit integriertem OpenPGP.
 
 ### 1. Schlüsselpaar erzeugen
 Kleopatra: *Datei → Neues OpenPGP-Schlüsselpaar*, Name und E-Mail angeben, mit Passphrase schützen.

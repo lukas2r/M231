@@ -54,5 +54,5 @@ Beispiel: Wikipedia steht unter CC BY-SA.
 |---|---|
 | Windows 11 Education | Volumen-/Campuslizenz (Education) |
 | Microsoft 365 (TBZ) | Abo / Education (pro Benutzer) |
-| ✏️ TODO | |
-| ✏️ TODO | |
+| PyCharm (JetBrains) | Community Edition: Open Source (Apache 2.0). Professional: Abo, für Lernende gratis über die JetBrains-Education-Lizenz (nicht kommerziell). |
+| Filius (Netzwerksimulation) | Open Source / Freie Software (GNU GPL, Copyleft) |

@@ -3,7 +3,7 @@
 ## Mein Repository
 - **URL:** https://github.com/lukas2r/M231
 - **Plattform:** GitHub
-- **Sichtbarkeit:** ✏️ TODO (empfohlen: **privat**, nur du und die Lehrperson haben Zugriff)
+- **Sichtbarkeit:** Öffentlich (public). Vor dem Hochladen von Screenshots mit persönlichen Daten auf **privat** stellen.
 - **Lehrperson eingeladen:** ✏️ TODO (GitHub-Benutzername der Lehrperson, Datum)
 
 ## Lehrperson einladen

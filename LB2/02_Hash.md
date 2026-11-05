@@ -32,7 +32,16 @@ Eine **Kollision** liegt vor, wenn zwei *verschiedene* Eingaben denselben Hash e
 - **SHA-1** ist ebenfalls **gebrochen**: Google und CWI präsentierten 2017 mit «SHAttered» zwei verschiedene PDFs mit gleichem SHA-1-Hash.
 - **SHA-256 / SHA-3** gelten heute als sicher.
 
-✏️ **TODO**: Lade die beiden Beispiel-Dateien aus dem Auftrag (bzw. von shattered.io) herunter, berechne die Hashes mit `Get-FileHash -Algorithm SHA1` und `-Algorithm SHA256` und trage die Resultate hier ein.
+### Versuch: SHAttered-Kollision nachrechnen
+Die beiden PDFs von shattered.io sind gleich gross (422'435 Bytes), zeigen aber unterschiedliche Bilder. Berechnet mit `Get-FileHash -Algorithm SHA1 / SHA256 / MD5` bzw. `sha1sum`, `sha256sum` und `md5sum`:
+
+| Algorithmus | shattered-1.pdf | shattered-2.pdf | Gleich? |
+|---|---|---|---|
+| **SHA-1** | 38762cf7f55934b34d179ae6a4c80cadccbb7f0a | 38762cf7f55934b34d179ae6a4c80cadccbb7f0a | ✅ **Kollision!** |
+| SHA-256 | 2bb787a73e37352f92383abe7e2902936d1059ad9f1ba6daaa9c1e58ee6970d0 | d4488775d29bdef7993367d541064dbdda50d383f89f0aa13a6ff2e0894ba5ff | ❌ verschieden |
+| MD5 | ee4aa52b139d925f8d8884402b0a750c | 5bd9d8cabc46041579a311230539b8d1 | ❌ verschieden |
+
+➡️ Zwei verschiedene Dateien haben den **gleichen SHA-1-Hash**. Mit SHA-1 könnte man also nicht feststellen, welches der beiden Dokumente echt ist, zum Beispiel bei einer digitalen Signatur. SHA-256 unterscheidet die Dateien zuverlässig. Deshalb sollte man für Integritätsprüfungen und Signaturen SHA-256 oder SHA-3 verwenden.
 
 ## Anwendungen
 - **Passwortspeicherung**: Gespeichert wird nur der Hash, mit **Salt** und einem langsamen Verfahren wie bcrypt, scrypt oder Argon2. Der Salt verhindert Angriffe mit Rainbow Tables.

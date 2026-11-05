@@ -43,4 +43,4 @@ Personendaten sind **alle Angaben, die sich auf eine bestimmte oder bestimmbare 
 Der EDÖB beaufsichtigt die Bundesorgane und private Personen, berät, informiert die Öffentlichkeit und kann Untersuchungen eröffnen und Verfügungen erlassen.
 
 ## Persönliches Fazit
-✏️ **TODO**: Schreibe 2–3 Sätze darüber, was dich beim Lesen überrascht hat oder was du neu gelernt hast.
+Überrascht hat mich, dass im Schweizer DSG nicht die Firma, sondern die verantwortliche Person selbst gebüsst wird, mit bis zu CHF 250'000. Neu war für mich auch, dass schon eine IP-Adresse als Personendatum gilt und dass ich bei jeder Firma kostenlos Auskunft über meine Daten verlangen kann. Als angehender Informatiker nehme ich mit, dass Datenschutz nicht nur eine juristische Frage ist: Mit Privacy by Design und Datensicherheit setzen wir ihn technisch um.

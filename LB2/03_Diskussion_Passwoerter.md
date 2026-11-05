@@ -42,5 +42,8 @@ mindmap
 - Häufige Zwangswechsel bringen wenig. Das NIST empfiehlt heute, Passwörter nur bei einem Verdacht auf Kompromittierung zu ändern.
 - Die beste Lösung ist ein **Passwortmanager + MFA**, langfristig **Passkeys**.
 
-## Meine Meinung / Diskussionspunkte aus der Gruppe
-✏️ **TODO**
+## Meine Meinung
+Früher habe ich für viele Dienste ähnliche Passwörter verwendet. Nach dieser Diskussion ist mir klar, dass gerade das gefährlich ist, weil ein einziges Leak dann mehrere Konten öffnet. Für mich ist die beste Lösung ein Passwortmanager mit einem langen Master-Passwort (Passphrase) plus MFA überall dort, wo es angeboten wird. Langfristig finde ich Passkeys am besten, weil man sich nichts merken muss und Phishing nicht mehr funktioniert.
+
+## Diskussionspunkte aus der Gruppe
+✏️ **TODO**: Punkte, die in eurer Gruppe gefallen sind
