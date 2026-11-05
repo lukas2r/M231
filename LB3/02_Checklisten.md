@@ -1,28 +1,43 @@
-# Checklisten Datenschutzmassnahmen – eigene Infrastruktur
+# Checklisten des Datenschutzbeauftragten des Kantons Zürichs
 
-Basierend auf den Empfehlungen von EDÖB, BACS und «S-U-P-E-R.ch». Hake ab, was bei dir erfüllt ist, und notiere, was du geändert hast.
+Auftrag: Zwei Checklisten von https://www.datenschutz.ch/meine-daten-schuetzen auswählen und Punkt für Punkt durchgehen. Zu jedem Punkt notieren:
+- Ist er **bereits erfüllt**? Wenn ja: **wie** ist er erfüllt?
+- Wenn nein: **Was kann ich tun**, um ihn zu erfüllen, und **wie** setze ich das um?
 
-## Smartphone
-- [ ] Bildschirmsperre mit PIN (mindestens 6 Ziffern) oder Biometrie
-- [ ] Betriebssystem und Apps sind aktuell, automatische Updates aktiv
-- [ ] App-Berechtigungen geprüft (Standort, Kamera, Mikrofon, Kontakte)
-- [ ] Werbe-ID zurückgesetzt bzw. deaktiviert (iOS: «Apps erlauben, Tracking anzufordern» aus; Android: Werbe-ID löschen)
-- [ ] Ortungsdienste nur «beim Verwenden der App»
-- [ ] «Mein Gerät finden» aktiv und Fernlöschung möglich
-- [ ] Gerät verschlüsselt (bei aktuellem iOS/Android standardmässig)
-- [ ] Nicht benötigte Apps gelöscht
-- [ ] Backup eingerichtet
+> ✏️ Wo **Befund** steht, ist der Stand vom 05.11.2026 eingetragen, wie er auf meinem Laptop geprüft wurde (Screenshots unten). Unter **Meine Antwort** beschreibe ich in eigenen Worten, wie ich den Punkt erfülle bzw. was ich mache.
 
-## Computer (Windows)
-Geprüft am 05.11.2026 auf meinem Laptop (Windows 11 Education, von der Organisation verwaltet).
+---
 
-- [x] Benutzerkonto mit Passwort / Windows Hello (PIN und Gesichtserkennung verfügbar, teils von der Organisation verwaltet)
-- [x] Windows Update aktiv: «Sie sind auf dem neuesten Stand». ⚠️ Die letzte Überprüfung war aber am **17.09.2026**, also vor 7 Wochen → manuell «Nach Updates suchen».
-- [x] Microsoft Defender und Firewall aktiv: Viren- und Bedrohungsschutz, Kontoschutz, Firewall: «Keine Aktion erforderlich»
-- [ ] ❌ **Geräteverschlüsselung: Aus**. Bei Verlust oder Diebstahl des Laptops wären alle Daten lesbar.
-- [ ] ⚠️ Datenschutzeinstellungen: **Optionale Diagnosedaten: Ein**, **Werbe-ID: Ein**, «Start- und Suchergebnisse verbessern» (App-Tracking): Ein. Positiv: «Personalisierte Angebote» ist aus.
-- [ ] Alltags-Arbeit nicht mit dem Administratorkonto (zu prüfen)
-- [ ] ❌ **Backup: keines eingerichtet**. Windows-Sicherung zeigt OneDrive «Keine Synchronisierung», App-Liste und Voreinstellungen «Nicht gesichert».
+# Checkliste 1: PC-Sicherheit erhöhen
+- Link: https://www.datenschutz.ch/meine-daten-schuetzen/pc-sicherheit-erhoehen-in-fuenf-schritten
+- Gerät: Laptop, Windows 11 Education (von der Schule verwaltet)
+
+- **01 Installieren Sie alle Updates**
+  - Befund: Windows Update meldet «auf dem neuesten Stand», die letzte Überprüfung war aber am 17.09.2026, also vor 7 Wochen. Automatische Updates werden von der Organisation gesteuert.
+  - Meine Antwort: ✏️
+- **02 Schalten Sie die Firewall und den Virenschutz ein**
+  - Befund: Windows-Sicherheit zeigt bei Viren- und Bedrohungsschutz, Kontoschutz sowie Firewall und Netzwerkschutz jeweils «Keine Aktion erforderlich».
+  - Meine Antwort: ✏️
+- **03 Verwenden Sie starke Passwörter**
+  - Befund: Passwortmanager Bitwarden ist installiert (siehe [Passwortmanager](04_Passwortmanager.md)).
+  - Meine Antwort: ✏️
+- **04 Schützen Sie sich vor Phishing und anderen Bedrohungen**
+  - Meine Antwort: ✏️
+- **05 Sicher surfen**
+  - Meine Antwort: ✏️
+- **06 Datenschutzfreundliche Dienste nutzen**
+  - Meine Antwort: ✏️
+- **07 Daten sichern**
+  - Befund: Windows-Sicherung zeigt OneDrive «Keine Synchronisierung», App-Liste und Voreinstellungen «Nicht gesichert». Es ist also **kein Backup** eingerichtet.
+  - Meine Antwort: ✏️
+- **08 Daten verschlüsseln und löschen**
+  - Befund: **Geräteverschlüsselung: Aus**.
+  - Meine Antwort: ✏️
+- **09 Administratorkonto nur bei Bedarf nutzen**
+  - Meine Antwort: ✏️
+- **10 Unberechtigte Zugriffe verhindern**
+  - Befund: Anmeldung mit Kennwort, PIN und Gesichtserkennung (Windows Hello) ist möglich. In den Datenschutzeinstellungen sind **Werbe-ID** und **optionale Diagnosedaten** eingeschaltet.
+  - Meine Antwort: ✏️
 
 | Windows-Sicherheit | Geräteverschlüsselung |
 |---|---|
@@ -36,33 +51,31 @@ Geprüft am 05.11.2026 auf meinem Laptop (Windows 11 Education, von der Organisa
 |---|---|
 | ![Diagnosedaten](img/win_diagnosedaten.png) | ![Windows-Sicherung](img/win_sicherung_vorher.png) |
 
-## Browser
-- [ ] Drittanbieter-Cookies blockiert, Tracking-Schutz «Streng»
-- [ ] Werbeblocker (uBlock Origin)
-- [ ] Passwörter in einem Passwortmanager statt im Browser
-- [ ] Datenschutzfreundliche Suchmaschine geprüft
-- [ ] Erweiterungen auf das Nötigste reduziert
+---
 
-## Online-Konten / Social Media
-- [ ] Profile auf «privat» bzw. nur für Freunde sichtbar
-- [ ] MFA bei E-Mail, Social Media, Banking und Cloud aktiv
-- [ ] Unterschiedliche, starke Passwörter
-- [ ] Verknüpfte Apps und Logins («Mit Google anmelden») geprüft
-- [ ] Mein E-Mail-Konto bei haveibeenpwned.com geprüft
-- [ ] Personalisierte Werbung deaktiviert (Google «Mein Werbecenter», Meta-Werbeeinstellungen)
+# Checkliste 2: Smartphone-Sicherheit erhöhen
+- Link: https://www.datenschutz.ch/meine-daten-schuetzen/smartphone-sicherheit-erhoehen
+- Gerät: ✏️ (Modell, iOS/Android)
 
-## Heimnetz
-- [ ] Router-Adminpasswort geändert
-- [ ] WLAN mit WPA2/WPA3 und starkem Passwort
-- [ ] Firmware des Routers aktuell
-- [ ] WPS deaktiviert
-- [ ] Gäste-WLAN für Besuch und IoT-Geräte
-
-## Gefundene Mängel und Massnahmen
-| Gerät / Dienst | Was war nicht OK? | Empfohlene Massnahme |
-|---|---|---|
-| Windows: Werbe-ID | Ein | ausschalten (Einstellungen → Datenschutz und Sicherheit → Empfehlungen und Angebote) |
-| Windows: Optionale Diagnosedaten | Ein | ausschalten (Datenschutz und Sicherheit → Diagnose und Feedback) |
-| Windows: Geräteverschlüsselung | Aus | einschalten bzw. bei der IT nachfragen. **Wiederherstellungsschlüssel sichern!** |
-| Windows: Backup | keines | siehe [Windows Backup](../LB2/07_Windows_Backup.md) |
-| Windows Update | letzte Prüfung vor 7 Wochen | «Nach Updates suchen» klicken |
+- **01 Aktivieren Sie die Gerätesperre**
+  - ✏️
+- **02 Sperren und löschen Sie das Gerät bei Verlust sofort**
+  - ✏️
+- **03 Installieren Sie Apps nur aus vertrauenswürdigen Quellen**
+  - ✏️
+- **04 Nutzen Sie öffentliche WLAN mit Vorsicht**
+  - ✏️
+- **05 Installieren Sie Updates**
+  - ✏️
+- **06 Regelmässige Kontrolle der Apps und Berechtigungen**
+  - ✏️
+- **07 Löschen Sie Daten sicher**
+  - ✏️
+- **08 Beachten Sie allgemeine Vorsichtsregeln**
+  - ✏️
+- **09 Deaktivieren Sie drahtlose Schnittstellen**
+  - ✏️
+- **10 Schränken Sie die Synchronisierung ein**
+  - ✏️
+- **11 Benutzen Sie fürs Login einen zweiten Faktor**
+  - ✏️

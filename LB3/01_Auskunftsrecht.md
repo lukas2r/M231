@@ -44,7 +44,23 @@ Beilage: Kopie Identitätskarte (Foto, Name und Geburtsdatum sichtbar, übrige A
 
 ---
 
-## Mein Auskunftsbegehren
+## Auftrag LB3: Auskunftsbegehren an den Mobilfunkanbieter (proforma)
+Gemäss Auftrag `01_Datenschutz/05_Auskunftsrecht.md`:
+1. Musterbrief des EDÖB herunterladen (edoeb.admin.ch → Musterbriefe → Auskunftsbegehren)
+2. **Eigene Angaben** einfüllen
+3. **Adresse des Mobilfunkanbieters** eintragen. Die korrekte Firmenadresse findet man im Handelsregister unter **zefix.ch**.
+4. Als **PDF ohne ID-Kopie und ohne Unterschrift** hier im Dossier ablegen und der Lehrperson den Link schicken (Teams oder E-Mail)
+
+| Punkt | Eintrag |
+|---|---|
+| Mobilfunkanbieter | ✏️ |
+| Adresse laut Zefix | ✏️ |
+| PDF | ✏️ `[Auskunftsbegehren.pdf](Auskunftsbegehren.pdf)` |
+| Link an Lehrperson geschickt am | ✏️ |
+
+> ⚠️ Das PDF enthält deinen Namen und deine Adresse. Stell das Repo vorher auf **privat** (Settings → General → Danger Zone → Change visibility). Die Lehrperson hat als Collaborator trotzdem Zugriff.
+
+## Zusätzlich: Auskunft bei Spotify (freiwillig)
 | Punkt | Eintrag |
 |---|---|
 | Firma | **Spotify AB** (ich habe kein Konto bei Swisscom, darum ein Dienst, den ich wirklich nutze) |
