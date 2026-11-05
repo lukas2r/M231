@@ -35,6 +35,3 @@
 6. Den Schlüssel bzw. das Passwort sicher aufbewahren (Passwortmanager und Notfallblatt)
 7. Cloud-Backup **zusätzlich** zu einem lokalen Offline-Backup nach der 3-2-1-Regel
 8. Restore regelmässig testen
-
-## Praxis
-✏️ **TODO**: Richte zum Beispiel Cryptomator mit deinem OneDrive ein, lege eine Datei in den Tresor und kontrolliere im OneDrive-Webportal, dass dort nur verschlüsselte Dateinamen und Inhalte sichtbar sind. Füge einen Screenshot ein.

@@ -58,11 +58,11 @@ Geprüft am 05.11.2026 auf meinem Laptop (Windows 11 Education, von der Organisa
 - [ ] WPS deaktiviert
 - [ ] Gäste-WLAN für Besuch und IoT-Geräte
 
-## Meine Änderungen
-| Gerät / Dienst | Was war nicht OK? | Was habe ich geändert? |
+## Gefundene Mängel und Massnahmen
+| Gerät / Dienst | Was war nicht OK? | Empfohlene Massnahme |
 |---|---|---|
-| Windows: Werbe-ID | Ein | ✏️ ausschalten (Einstellungen → Datenschutz und Sicherheit → Empfehlungen und Angebote) |
-| Windows: Optionale Diagnosedaten | Ein | ✏️ ausschalten (Datenschutz und Sicherheit → Diagnose und Feedback) |
-| Windows: Geräteverschlüsselung | Aus | ✏️ einschalten bzw. bei der IT nachfragen. **Wiederherstellungsschlüssel sichern!** |
-| Windows: Backup | keines | ✏️ siehe [Windows Backup](../LB2/07_Windows_Backup.md) |
-| Windows Update | letzte Prüfung vor 7 Wochen | ✏️ «Nach Updates suchen» klicken |
+| Windows: Werbe-ID | Ein | ausschalten (Einstellungen → Datenschutz und Sicherheit → Empfehlungen und Angebote) |
+| Windows: Optionale Diagnosedaten | Ein | ausschalten (Datenschutz und Sicherheit → Diagnose und Feedback) |
+| Windows: Geräteverschlüsselung | Aus | einschalten bzw. bei der IT nachfragen. **Wiederherstellungsschlüssel sichern!** |
+| Windows: Backup | keines | siehe [Windows Backup](../LB2/07_Windows_Backup.md) |
+| Windows Update | letzte Prüfung vor 7 Wochen | «Nach Updates suchen» klicken |
