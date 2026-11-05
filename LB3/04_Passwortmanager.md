@@ -42,8 +42,6 @@ Ein Passwortmanager speichert alle Zugangsdaten in einem **verschlüsselten Tres
 |---|---|
 | ![Generator Passwort](img/bitwarden_generator_passwort.png) | ![Generator Passphrase](img/bitwarden_generator_passphrase.png) |
 
-✏️ **TODO**: Browser-Erweiterung und Handy-App installieren, 2FA für den Tresor aktivieren
-
 ## Risiken
 - Single Point of Failure: Das Master-Passwort und der 2FA-Wiederherstellungscode müssen sicher aufbewahrt werden.
 - Auch Anbieter können angegriffen werden (z. B. der LastPass-Breach 2022). Dank Zero-Knowledge schützt dann das starke Master-Passwort den gestohlenen Tresor.
