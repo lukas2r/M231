@@ -42,6 +42,10 @@ Ein Passwortmanager speichert alle Zugangsdaten in einem **verschlüsselten Tres
 |---|---|
 | ![Generator Passwort](img/bitwarden_generator_passwort.png) | ![Generator Passphrase](img/bitwarden_generator_passphrase.png) |
 
+**Nutzung: erster Eintrag gespeichert.** Die Zugangsdaten für GitLab (TBZ) liegen jetzt verschlüsselt im Tresor. Das Passwort bleibt verborgen, bis man auf 👁 klickt. Den Benutzernamen habe ich für den Screenshot unkenntlich gemacht.
+
+![Bitwarden Eintrag GitLab](img/bitwarden_eintrag_gitlab.png)
+
 ## Risiken
 - Single Point of Failure: Das Master-Passwort und der 2FA-Wiederherstellungscode müssen sicher aufbewahrt werden.
 - Auch Anbieter können angegriffen werden (z. B. der LastPass-Breach 2022). Dank Zero-Knowledge schützt dann das starke Master-Passwort den gestohlenen Tresor.
