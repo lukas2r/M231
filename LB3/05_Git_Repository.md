@@ -4,7 +4,7 @@
 - **URL:** https://github.com/lukas2r/M231
 - **Plattform:** GitHub
 - **Sichtbarkeit:** Öffentlich (public). Vor dem Hochladen von Screenshots mit persönlichen Daten auf **privat** stellen.
-- **Lehrperson eingeladen:** ✏️ TODO (GitHub-Benutzername der Lehrperson, Datum)
+- **Lehrperson eingeladen:** Ja, am 05.11.2026 über *Settings → Collaborators → Add people* (Rolle: Lesezugriff). Die Einladung muss von der Lehrperson angenommen werden.
 
 ## Lehrperson einladen
 1. Repo öffnen → **Settings** → **Collaborators** (bzw. *Collaborators and teams*)
