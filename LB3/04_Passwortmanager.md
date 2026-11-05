@@ -6,7 +6,7 @@ Ein Passwortmanager speichert alle Zugangsdaten in einem **verschlüsselten Tres
 ## Evaluation
 | Kriterium | Bitwarden | KeePassXC | 1Password | Proton Pass | Browser (Chrome/Edge) |
 |---|---|---|---|---|---|
-| Kosten | Gratis (Premium ca. 10 $/Jahr) | Gratis | ca. 36 $/Jahr | Gratis / Plus | Gratis |
+| Kosten | Gratis (unbegrenzte Passwörter und Geräte); Premium optional und kostenpflichtig | Gratis | ca. 36 $/Jahr | Gratis / Plus | Gratis |
 | Open Source | ✅ | ✅ | ❌ | ✅ | teilweise |
 | Speicherort | Cloud (oder selbst gehostet) | **lokale Datei** (.kdbx) | Cloud | Cloud (CH) | Cloud des Browser-Anbieters |
 | Zero-Knowledge / E2E | ✅ | ✅ (lokal) | ✅ | ✅ | eingeschränkt |
