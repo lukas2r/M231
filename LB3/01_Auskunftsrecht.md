@@ -47,10 +47,11 @@ Beilage: Kopie Identitätskarte (Foto, Name und Geburtsdatum sichtbar, übrige A
 ## Mein Auskunftsbegehren
 | Punkt | Eintrag |
 |---|---|
-| Firma | **Swisscom (Schweiz) AG** |
-| Weg | Als Kunde: Kundencenter *My Swisscom → Datenschutz* (Daten online anfordern). Als Nicht-Kunde: Vorlageformular «Auskunftsbegehren» von swisscom.ch/datenschutz bzw. die Briefvorlage oben |
-| Gesendet am / per | ✏️ TODO |
+| Firma | **Spotify AB** (ich habe kein Konto bei Swisscom, darum ein Dienst, den ich wirklich nutze) |
+| Weg | Online-Formular «Deine Daten herunterladen» unter spotify.com/account/privacy (Self-Service-Auskunft nach DSG/DSGVO) |
+| Angefordert | **Kontodaten**-Paket: Profil, Playlists, Suchanfragen, Streamingverlauf der letzten 12 Monate, Geschmacks- und Werbeprofile, Standortdaten u. a. Spotify nennt bis zu 5 Tage Bearbeitungszeit. |
+| Gesendet am / per | 05.11.2026, online, Bestätigung per Link in der E-Mail |
 | Antwort erhalten am | ✏️ TODO |
-| Erkenntnisse | ✏️ TODO: Welche Daten hatte die Firma? Hat dich etwas überrascht? |
+| Erkenntnisse | ✏️ TODO: Welche Daten hatte Spotify? Hat dich etwas überrascht? |
 
 > Tipp: Viele grosse Dienste bieten einen Self-Service-Export an, etwa Google Takeout, «Informationen herunterladen» bei Instagram oder die Kontoeinstellungen bei Galaxus. Auch das zählt als Weg, das Auskunftsrecht auszuüben.
