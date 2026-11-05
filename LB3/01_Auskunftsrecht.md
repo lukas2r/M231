@@ -47,7 +47,8 @@ Beilage: Kopie Identitätskarte (Foto, Name und Geburtsdatum sichtbar, übrige A
 ## Mein Auskunftsbegehren
 | Punkt | Eintrag |
 |---|---|
-| Firma | ✏️ TODO (z. B. Migros Cumulus, Coop Supercard, Swisscom, Galaxus, SBB) |
+| Firma | **Swisscom (Schweiz) AG** |
+| Weg | Als Kunde: Kundencenter *My Swisscom → Datenschutz* (Daten online anfordern). Als Nicht-Kunde: Vorlageformular «Auskunftsbegehren» von swisscom.ch/datenschutz bzw. die Briefvorlage oben |
 | Gesendet am / per | ✏️ TODO |
 | Antwort erhalten am | ✏️ TODO |
 | Erkenntnisse | ✏️ TODO: Welche Daten hatte die Firma? Hat dich etwas überrascht? |
