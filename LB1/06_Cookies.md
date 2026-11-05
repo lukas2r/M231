@@ -39,5 +39,36 @@ Wichtige Attribute: `Expires`/`Max-Age` (Lebensdauer), `Domain`, `Path`, `Secure
 - Erweiterungen wie uBlock Origin
 - Cookies regelmässig löschen oder den privaten Modus verwenden
 
-## Praxis: Cookies im Browser anschauen
-✏️ **TODO**: Öffne die Entwicklertools (F12) → *Application/Speicher* → *Cookies* auf einer Website deiner Wahl, zum Beispiel 20min.ch. Füge einen Screenshot ein und notiere, wie viele Drittanbieter-Cookies du gefunden hast.
+## Praxis: Cookies auf 20min.ch untersucht (05.11.2026)
+Vorgehen: 20min.ch in einem Browser aufgerufen und den Cookie-Banner **nicht** angeklickt, also **keine Auswahl getroffen**. Danach mit den Entwicklertools (F12 → Konsole: `document.cookie`, `performance.getEntriesByType('resource')`) ausgewertet, was die Seite schon geladen und gespeichert hat.
+
+![Cookie-Banner 20min.ch](img/20min_cookie_banner.jpg)
+
+### Ergebnis
+| | Anzahl |
+|---|---|
+| Partner laut Cookie-Banner | **276** |
+| Cookies (per JavaScript sichtbar, ohne HttpOnly) | **16** |
+| Einträge im Local Storage | 8 |
+| Netzwerk-Anfragen beim Laden | 160 |
+| Kontaktierte Domains | 31, davon **25 Drittanbieter** |
+
+**Gefundene Tracking-Cookies (Auswahl):**
+| Cookie | Anbieter | Zweck |
+|---|---|---|
+| `_ga`, `_ga_…`, `_gcl_au`, `FPLC`, `FPGSID` | Google Analytics / Google Ads | Besucher wiedererkennen, Statistik, Werbe-Conversions |
+| `_fbp` | Meta (Facebook) | Werbe-Tracking, Facebook-Pixel |
+| `_ttp`, `ttcsid…`, `_tt_enable_cookie` | TikTok | Werbe-Tracking, TikTok-Pixel |
+| `_vwo_uuid_v2` | VWO | A/B-Tests |
+| `_k5a` | Kilkaya | Reichweitenmessung |
+| `OptanonConsent` | OneTrust | Speichert die Cookie-Einwilligung |
+| `FCCDCF` | Google Funding Choices | Einwilligungsstatus für Werbung |
+
+**Drittanbieter-Domains (Auswahl):** googletagmanager.com, doubleclick.net (Google-Werbung), connect.facebook.net, analytics.tiktok.com, scorecardresearch.com, brandmetrics.com, adtrafficquality.google, cookielaw.org / onetrust.com.
+
+### Erkenntnis
+Obwohl ich **nichts angeklickt** hatte, waren schon Tracking-Cookies von Google, Meta und TikTok gesetzt. Im `OptanonConsent`-Cookie sind alle Kategorien vorab als **erlaubt** markiert (`C0001:1, C0002:1, C0003:1, C0004:1, C0005:1`).
+
+Das passt zum **Schweizer Opt-out-Prinzip** (siehe oben): Die Seite informiert und lässt widersprechen, aktiviert aber standardmässig alles. In der EU wäre das nach DSGVO und ePrivacy unzulässig, dort müssten Marketing-Cookies erst **nach** einer Zustimmung gesetzt werden (Opt-in). Wer das nicht will, muss im Banner aktiv «Ablehnen» bzw. «Einstellungen» wählen oder Drittanbieter-Cookies im Browser blockieren.
+
+> Hinweis: Das Ergebnis kann je nach Browser, Standort und vorherigen Besuchen leicht abweichen.
