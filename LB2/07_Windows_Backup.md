@@ -8,6 +8,11 @@
 | **Sichern und Wiederherstellen (Windows 7)** | **Systemabbild** (Image) + Dateien | Externe Disk / Netzlaufwerk | Offline |
 
 ## Durchführung
+### Ausgangslage (05.11.2026)
+Auf meinem Laptop war **kein Backup eingerichtet**: OneDrive «Keine Synchronisierung», App-Liste und Voreinstellungen «Nicht gesichert».
+
+![Windows-Sicherung vorher](img/win_sicherung_vorher.png)
+
 ### A) Online-Backup mit «Windows-Sicherung» bzw. OneDrive
 1. *Einstellungen → Konten → Windows-Sicherung*
 2. «OneDrive-Ordnersynchronisierung» → Desktop, Dokumente und Bilder aktivieren
